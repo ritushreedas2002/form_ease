@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Scroll from "./Scroll";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const Body=()=>{
     /*
@@ -17,6 +18,7 @@ const Body=()=>{
             <Scroll/>
             <Outlet/>
         </div>
+        <Footer/>
         </>
     )
 }

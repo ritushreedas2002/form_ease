@@ -2,7 +2,6 @@ import './App.css';
 import AboutUs from './components/AboutUs';
 import Body from './components/Body';
 import ExamContainer from './components/Examcontainer';
-import Header from './components/Header';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 function App() {
@@ -26,7 +25,7 @@ function App() {
   ]);
 
   return (
-    <div className="App">
+    <div className="">
       <RouterProvider router={appRouter}/>
     </div>
   );

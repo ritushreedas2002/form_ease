@@ -1,9 +1,11 @@
+import RecentExams from "./RecentExam";
 import RecommendedExams from "./RecommendedExams";
 
 const ExamContainer=()=>{
     return (
-        <div className=" h-auto w-[100%] mt-32">
+        <div className=" flex-col h-auto w-[100%] mt-32">
             <RecommendedExams/>
+            <RecentExams/>
         </div>
     )
 }

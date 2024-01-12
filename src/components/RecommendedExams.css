@@ -1,0 +1,22 @@
+/* RecommendedExams.css */
+.recommended-container {
+    overflow: hidden;
+  }
+  
+  .scroll-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin; /* For Firefox */
+  }
+  
+  .scroll-wrapper::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
+
+  
+  
+  .recommended-scroll-container {
+    display: flex;
+    gap: 16px; /* Adjust the gap between cards */
+  }
+  
