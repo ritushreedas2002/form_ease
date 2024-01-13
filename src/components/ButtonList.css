@@ -5,6 +5,7 @@
     white-space: nowrap;
     scrollbar-width: thin; /* For Firefox */
     margin-bottom: 18px;
+    
 }
 .scroll-wrapper::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Edge */
@@ -22,6 +23,7 @@
   color: #064178;
   margin-left: 1.5rem;
   margin-right: 1.5rem; 
+  background-color: white;
 }
 .item:hover{
     background-color: #4299e1; 

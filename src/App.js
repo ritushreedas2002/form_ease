@@ -25,7 +25,7 @@ function App() {
   ]);
 
   return (
-    <div className="">
+    <div className="bg-slate-100">
       <RouterProvider router={appRouter}/>
     </div>
   );

@@ -7,7 +7,7 @@ const RecommendedCard = (props) => {
   const { name, name2, logo, amount, people,sub} = props.name;
 
   return (
-    <div className="w-[40%] h-64 shadow-xl border border-b-slate-900 mx-6 p-3 text-black rounded-lg">
+    <div className="w-[40%] h-64 shadow-xl border bg-white border-b-slate-900 mx-6 p-3 text-black rounded-lg">
       <div className="flex justify-between">
         <div className='border w-14 rounded-lg m-3 '>
         <img className="w-14 h-14" src={logo} alt="lo" />
